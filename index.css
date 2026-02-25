@@ -211,7 +211,6 @@ header i {
   justify-content: center;
   align-items: center;
   gap: 70px;
-  /* height: 70vh; */
 }
 
 .learn .div-learn {
@@ -293,18 +292,21 @@ header i {
 }
 
 .profile .profile-img {
-  width: 6vmin;
-  height: 6vmin;
-  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   background-color: #e9e4e4;
   text-align: center;
   color: blue;
   font-size: 2vmin;
 }
 
-.profile h3,
-.profile p {
-  font-size: 2vmin;
+.profile .profile-img img {
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50px;
 }
 
 /* JOURNEY SECTION */
@@ -697,11 +699,6 @@ footer p {
     display: flex;
     gap: 10px;
     align-items: center;
-  }
-
-  .content-box .profile p,
-  .content-box .profile h3 {
-    font-size: 3vmin;
   }
 
   .profile .profile-img {
